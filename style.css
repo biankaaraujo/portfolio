@@ -8,6 +8,7 @@ body {
   background-color: #eae8e8;
 }
 
+/* Cabeçalho */
 #profile {
   text-align: center;
   margin-top: 40px;
@@ -44,4 +45,40 @@ body {
   font-family: "Dancing Script", cursive;
   font-weight: 700;
   font-size: 25px;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+#container-left {
+  width: 30%;
+}
+
+#links {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  padding: 35px 10px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  margin-top: 35px;
+}
+
+#links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #524c73;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  gap: 20px;
+}
+
+#container-right {
+  width: 70%;
 }
