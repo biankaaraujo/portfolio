@@ -7,3 +7,41 @@
 body {
   background-color: #eae8e8;
 }
+
+#profile {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#profile img {
+  width: 113px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+  transform: rotate(-37.64deg);
+}
+
+#name {
+  position: relative;
+  margin-top: 14px;
+}
+
+#name h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #414141;
+  opacity: 50%;
+}
+
+#name h2 {
+  letter-spacing: 13px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 25px;
+}
