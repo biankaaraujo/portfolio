@@ -150,7 +150,7 @@ main {
 }
 
 #education {
-  margin-top: 10px;
+  margin-top: 11px;
   margin-left: 16px;
   padding: 14px 30px;
   background-color: #d9d9d9;
@@ -159,4 +159,28 @@ main {
 
 #education p {
   margin-top: 10px;
+}
+
+#projects {
+  margin-top: 16px;
+  margin-left: 16px;
+  padding: 20px 30px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+#projects a {
+  display: flex;
+  text-decoration: none;
+  font-family: "Merriweather Sans", sans-serif;
+  color: #837e9f;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 35px;
+  gap: 10px;
+}
+
+#projects p {
+  margin-top: 16px;
+  margin-bottom: 10px;
 }
