@@ -115,11 +115,36 @@ main {
   padding: 20px 30px;
 }
 
-ul li {
+#experiences ul li {
   color: #837e9f;
   margin-top: 10px;
 }
 
 #container-right {
   width: 70%;
+  max-width: 520px;
+}
+
+#technologies {
+  margin-top: 35px;
+  margin-left: 16px;
+  padding: 13px 30px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+#technologies ul li {
+  list-style: none;
+  display: inline-flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 16px;
+  width: 113px;
+  height: 23px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: rgba(82, 76, 115, 0.47);
+  border-radius: 20px;
 }
