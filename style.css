@@ -201,6 +201,10 @@ main {
     margin: 0;
   }
 
+  #links {
+    align-items: center;
+  }
+
   #experiences ul {
     list-style: none;
   }
